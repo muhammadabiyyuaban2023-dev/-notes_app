@@ -1,17 +1,36 @@
-# notes_app
+# Notes App
 
-A new Flutter project.
+## Deskripsi
+Notes App adalah aplikasi pencatatan sederhana berbasis Flutter. Aplikasi ini menggunakan Hive untuk menyimpan data secara lokal dan BLoC untuk mengelola state.
 
-## Getting Started
+## Fitur
+- Menampilkan daftar catatan.
+- Menambahkan catatan.
+- Mengedit catatan.
+- Menghapus catatan.
+- Menyimpan catatan secara lokal.
 
-This project is a starting point for a Flutter application.
+## Teknologi
+- Flutter
+- Dart
+- Hive
+- BLoC
+- Equatable
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Cara Instalasi
+1. Clone repository:
+   ```bash
+   git clone https://github.com/muhammadabiyyuaban2023-dev/-notes_app.git
+   ```
+2. Masuk ke folder:
+   ```bash
+   cd -notes_app
+   ```
+3. Install dependency:
+   ```bash
+   flutter pub get
+   ```
+4. Jalankan aplikasi:
+   ```bash
+   flutter run
+   ```
